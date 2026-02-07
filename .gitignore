@@ -29,6 +29,10 @@ runtime_config.json
 *.jpg
 *.jpeg
 *.webp
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.jpeg
+!docs/images/*.webp
 
 # Env/secrets
 .env

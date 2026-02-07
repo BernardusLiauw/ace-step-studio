@@ -11,18 +11,22 @@ ACE-Step Studio uses:
 
 This project is designed for personal/self-hosted use and can run on macOS and Windows.
 
+## Screenshot
+
+![Custom mode UI](docs/images/custom-mode.png)
+
 ## Installation
 
-See the full step-by-step setup guide here: [installation.md](./installation.md)
+See the full step-by-step setup guide here: [docs/installation.md](./docs/installation.md)
 
 ## Repository Layout
 
 ```text
 .
 ├── backend/        # FastAPI app, ACE-Step + LM services
+├── docs/           # project docs and screenshots
 ├── frontend/       # Vite/React SPA (Suno-inspired UI)
 ├── scripts/        # install & start helpers
-├── installation.md # full install guide for new users
 └── README.md
 ```
 
